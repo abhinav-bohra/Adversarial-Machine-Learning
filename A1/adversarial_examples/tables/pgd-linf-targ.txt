@@ -1,0 +1,150 @@
+2-Layer DNN & 0.05 & 0.001 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.001-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.026 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.026-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.05 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.05-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.075 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.075-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.026 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.026-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.001 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.001-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.075 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.075-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.026 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.026-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.001 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.001-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.1 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.1-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.075 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.075-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.075 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.075-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.05 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.05-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.05 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.05-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.001 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.001-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.026 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.026-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.1 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.1-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.075 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.075-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.001 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.001-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.1 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.1-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.026 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.026-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.001 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.001-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.026 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.026-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.1 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.1-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.075 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.075-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.026 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.026-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.001 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.001-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.001 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.001-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.075 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.075-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.05 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.05-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.075 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.075-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.05 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.05-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.05 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.05-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.026 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.026-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.001 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.001-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.05 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.05-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.05 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.05-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.075 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.075-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.1 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.1-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.1 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.1-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.1 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.1-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.026 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.026-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.1 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.1-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.075 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.075-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.001 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.001-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.075 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.075-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.001 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.001-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.05 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.05-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.1 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.1-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.1 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.1-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.05 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.05-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.075 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.075-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.026 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.026-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.075 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.075-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.026 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.026-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.075 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.075-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.05 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.05-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.026 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.026-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.1 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.1-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.1 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.1-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.001 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.001-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.1 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.1-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.075 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.075-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.026 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.026-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.001 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.001-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.1 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.1-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.001 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.001-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.075 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.075-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.075 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.075-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.1 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.1-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.1 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.1-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.1 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.1-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.001 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.001-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.075 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.075-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.026 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.026-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.1 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.1-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.05 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.05-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.075 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.075-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.075 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.075-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.05 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.05-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.026 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.026-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.05 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.05-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.075 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.075-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.075 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.075-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.05 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.05-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.026 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.026-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.075 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.075-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.026 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.026-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.026 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.026-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.075 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.075-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.05 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.05-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.05 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.05-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.05 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.05-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.05 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.05-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.05 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.05-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.001 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.001-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.001 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.001-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.075 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.075-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.05 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.05-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.001 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.001-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.1 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.1-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.026 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.026-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.001 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.001-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.075 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.075-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.026 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.026-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.026 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.026-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.026 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.026-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.001 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.001-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.05 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.05-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.026 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.026-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.1 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.1-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.05 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.05-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.026 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.026-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.1 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.1-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.1 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.1-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.001 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.001-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.075 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.075-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.026 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.026-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.05 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.05-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.001 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.001-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.026 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.026-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.075 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.075-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.1 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.1-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.026 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.026-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.05 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.05-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.001 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.001-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.075 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.075-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.1 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.1-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.026 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.026-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.1 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.1-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.05 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.05-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.026 & 0.05 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.026-0.05-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.001 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.001-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.1 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.1-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.1 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.1-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.1 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.1-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.05 & 0.001 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.05-0.001-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.075 & 0.001 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.075-0.001-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.075 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.075-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.05 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.05-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.05 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.05-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.001 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.001-40-y2.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.1 & 0.001 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.1-0.001-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.001 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.001-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.026 & 0.001 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.026-0.001-40-y0.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.05 & 0.1 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.05-0.1-40-y1.png}\end{minipage} \\ \hline
+CNN & 0.001 & 0.1 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.001-0.1-40-y2.png}\end{minipage} \\ \hline
+CNN & 0.1 & 0.026 & 40 & y1 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.1-0.026-40-y1.png}\end{minipage} \\ \hline
+2-Layer DNN & 0.001 & 0.026 & 40 & y0 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_dnn_0.001-0.026-40-y0.png}\end{minipage} \\ \hline
+CNN & 0.075 & 0.05 & 40 & y2 & msr & \begin{minipage}{.3\textwidth}\includegraphics[width=80mm, height=40mm]{images/pgd-linf-targ_cnn_0.075-0.05-40-y2.png}\end{minipage} \\ \hline
