@@ -5,11 +5,9 @@ from docx.shared import Inches
 methods = ["fgsm", "pgd", "pgd-linf", "pgd-linf-targ", "pgd-l2"]
 dfs = ['fgsm_results_df.csv', 'pgd_results_df.csv', 'pgd_linf_results_df.csv']
 
-for i in range(len(methods)):
+for i in range(len(dfs)):
     method = methods[i]
-    result_df = pd.read_csv(f"results/{dfs[i]}")
-    df = fgsm_results_df.copy()
-    df = df.drop(['Output Image'], axis=1).reset_index(drop=True)
+    df = pd.read_csv(f"results/{dfs[i]}").reset_index(drop=True)
 
     # create a new Word document
     doc = docx.Document()
@@ -29,9 +27,10 @@ for i in range(len(methods)):
                 cell._element.clear_content()
                 paragraph = cell.add_paragraph()
                 run = paragraph.add_run()
-                run.add_picture(row[col], width=Inches(2), height=Inches(2))
+                run.add_picture(f'{row[col]}.png', width=Inches(2), height=Inches(2))
             else:
                 table.cell(i+1, j).text = str(row[col])
 
     # save the document
     doc.save(f'tables/{method}.docx')
+    print(f'tables/{method}.docx SAVED')

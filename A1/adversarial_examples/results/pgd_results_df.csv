@@ -1,14 +1,14 @@
 Epsilon,Alpha,Num-Iters,Model,Miss-classification Rate,Output Image
-0.1,0.05,40, DNN,0.2552,output/pgd/pgd_dnn_0.1-0.05-40
-0.075,0.05,40, DNN,0.2542,output/pgd/pgd_dnn_0.075-0.05-40
-0.05,0.026,40, DNN,0.1857,output/pgd/pgd_dnn_0.05-0.026-40
-0.05,0.05,40, DNN,0.2477,output/pgd/pgd_dnn_0.05-0.05-40
-0.026,0.05,40, DNN,0.1461,output/pgd/pgd_dnn_0.026-0.05-40
-0.05,0.05,40, DNN,0.2477,output/pgd/pgd_dnn_0.05-0.05-40
-0.001,0.05,40, DNN,0.0301,output/pgd/pgd_dnn_0.001-0.05-40
-0.05,0.001,40, DNN,0.0404,output/pgd/pgd_dnn_0.05-0.001-40
-0.05,0.1,40, DNN,0.3368,output/pgd/pgd_dnn_0.05-0.1-40
-0.05,0.075,40, DNN,0.297,output/pgd/pgd_dnn_0.05-0.075-40
+0.1,0.05,40,DNN,0.2552,output/pgd/pgd_dnn_0.1-0.05-40
+0.075,0.05,40,DNN,0.2542,output/pgd/pgd_dnn_0.075-0.05-40
+0.05,0.026,40,DNN,0.1857,output/pgd/pgd_dnn_0.05-0.026-40
+0.05,0.05,40,DNN,0.2477,output/pgd/pgd_dnn_0.05-0.05-40
+0.026,0.05,40,DNN,0.1461,output/pgd/pgd_dnn_0.026-0.05-40
+0.05,0.05,40,DNN,0.2477,output/pgd/pgd_dnn_0.05-0.05-40
+0.001,0.05,40,DNN,0.0301,output/pgd/pgd_dnn_0.001-0.05-40
+0.05,0.001,40,DNN,0.0404,output/pgd/pgd_dnn_0.05-0.001-40
+0.05,0.1,40,DNN,0.3368,output/pgd/pgd_dnn_0.05-0.1-40
+0.05,0.075,40,DNN,0.297,output/pgd/pgd_dnn_0.05-0.075-40
 0.05,0.026,40,CNN,0.0489,output/pgd/pgd_cnn_0.05-0.026-40
 0.05,0.05,40,CNN,0.0602,output/pgd/pgd_cnn_0.05-0.05-40
 0.05,0.075,40,CNN,0.0661,output/pgd/pgd_cnn_0.05-0.075-40
