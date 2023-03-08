@@ -1,0 +1,11 @@
+,Method,Epsilon,Alpha,Num-Iters,Model,Miss-classification Rate,Output_Screenshot
+1,PGD-L2,0.1,0.05,40,CNN,0.0144,output/pgd-l2/pgd-l2_cnn_0.1-0.05-40.png
+3,PGD-L2,0.075,0.05,40,CNN,0.0134,output/pgd-l2/pgd-l2_cnn_0.075-0.05-40.png
+5,PGD-L2,0.05,0.05,40,CNN,0.0123,output/pgd-l2/pgd-l2_cnn_0.05-0.05-40.png
+7,PGD-L2,0.026,0.05,40,CNN,0.0117,output/pgd-l2/pgd-l2_cnn_0.026-0.05-40.png
+9,PGD-L2,0.001,0.05,40,CNN,0.0106,output/pgd-l2/pgd-l2_cnn_0.001-0.05-40.png
+0,PGD-L2,0.1,0.05,40,DNN,0.037,output/pgd-l2/pgd-l2_dnn_0.1-0.05-40.png
+2,PGD-L2,0.075,0.05,40,DNN,0.0346,output/pgd-l2/pgd-l2_dnn_0.075-0.05-40.png
+4,PGD-L2,0.05,0.05,40,DNN,0.0317,output/pgd-l2/pgd-l2_dnn_0.05-0.05-40.png
+6,PGD-L2,0.026,0.05,40,DNN,0.0302,output/pgd-l2/pgd-l2_dnn_0.026-0.05-40.png
+8,PGD-L2,0.001,0.05,40,DNN,0.0279,output/pgd-l2/pgd-l2_dnn_0.001-0.05-40.png
