@@ -1,0 +1,21 @@
+,Epsilon,Alpha,Num-Iters,Model,Miss-classification Rate,Output_Screenshot
+9,0.001,0.05,40,CNN,0.0106,output/pgd-l2/pgd-l2_cnn_0.001-0.05-40.png
+17,0.05,0.026,40,CNN,0.0123,output/pgd-l2/pgd-l2_cnn_0.05-0.026-40.png
+15,0.05,0.05,40,CNN,0.0123,output/pgd-l2/pgd-l2_cnn_0.05-0.05-40.png
+13,0.05,0.075,40,CNN,0.0123,output/pgd-l2/pgd-l2_cnn_0.05-0.075-40.png
+11,0.05,0.1,40,CNN,0.0123,output/pgd-l2/pgd-l2_cnn_0.05-0.1-40.png
+7,0.026,0.05,40,CNN,0.0117,output/pgd-l2/pgd-l2_cnn_0.026-0.05-40.png
+19,0.05,0.001,40,CNN,0.0117,output/pgd-l2/pgd-l2_cnn_0.05-0.001-40.png
+5,0.05,0.05,40,CNN,0.0123,output/pgd-l2/pgd-l2_cnn_0.05-0.05-40.png
+3,0.075,0.05,40,CNN,0.0134,output/pgd-l2/pgd-l2_cnn_0.075-0.05-40.png
+1,0.1,0.05,40,CNN,0.0144,output/pgd-l2/pgd-l2_cnn_0.1-0.05-40.png
+8,0.001,0.05,40,DNN,0.0279,output/pgd-l2/pgd-l2_dnn_0.001-0.05-40.png
+18,0.05,0.001,40,DNN,0.0305,output/pgd-l2/pgd-l2_dnn_0.05-0.001-40.png
+10,0.05,0.1,40,DNN,0.0317,output/pgd-l2/pgd-l2_dnn_0.05-0.1-40.png
+4,0.05,0.05,40,DNN,0.0317,output/pgd-l2/pgd-l2_dnn_0.05-0.05-40.png
+12,0.05,0.075,40,DNN,0.0317,output/pgd-l2/pgd-l2_dnn_0.05-0.075-40.png
+14,0.05,0.05,40,DNN,0.0317,output/pgd-l2/pgd-l2_dnn_0.05-0.05-40.png
+2,0.075,0.05,40,DNN,0.0346,output/pgd-l2/pgd-l2_dnn_0.075-0.05-40.png
+16,0.05,0.026,40,DNN,0.0317,output/pgd-l2/pgd-l2_dnn_0.05-0.026-40.png
+6,0.026,0.05,40,DNN,0.0302,output/pgd-l2/pgd-l2_dnn_0.026-0.05-40.png
+0,0.1,0.05,40,DNN,0.037,output/pgd-l2/pgd-l2_dnn_0.1-0.05-40.png
