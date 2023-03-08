@@ -1,11 +1,11 @@
 Method,Epsilon,Alpha,Num-Iters,Y-Targ,Model,Miss-classification Rate,Output_Screenshot
-PGD-LINF-TARG,0.05,0.1,40,0,CNN,0.0537,output/pgd-linf_targ/pgd-linf_targ_cnn_0.05-0.1-40-0.png
-PGD-LINF-TARG,0.05,0.075,40,0,CNN,0.0582,output/pgd-linf_targ/pgd-linf_targ_cnn_0.05-0.075-40-0.png
-PGD-LINF-TARG,0.05,0.05,40,0,CNN,0.0637,output/pgd-linf_targ/pgd-linf_targ_cnn_0.05-0.05-40-0.png
-PGD-LINF-TARG,0.05,0.026,40,0,CNN,0.0672,output/pgd-linf_targ/pgd-linf_targ_cnn_0.05-0.026-40-0.png
-PGD-LINF-TARG,0.05,0.001,40,0,CNN,0.0463,output/pgd-linf_targ/pgd-linf_targ_cnn_0.05-0.001-40-0.png
-PGD-LINF-TARG,0.05,0.1,40,0,DNN,0.1842,output/pgd-linf_targ/pgd-linf_targ_dnn_0.05-0.1-40-0.png
-PGD-LINF-TARG,0.05,0.075,40,0,DNN,0.1851,output/pgd-linf_targ/pgd-linf_targ_dnn_0.05-0.075-40-0.png
-PGD-LINF-TARG,0.05,0.05,40,0,DNN,0.1856,output/pgd-linf_targ/pgd-linf_targ_dnn_0.05-0.05-40-0.png
-PGD-LINF-TARG,0.05,0.026,40,0,DNN,0.1864,output/pgd-linf_targ/pgd-linf_targ_dnn_0.05-0.026-40-0.png
-PGD-LINF-TARG,0.05,0.001,40,0,DNN,0.1238,output/pgd-linf_targ/pgd-linf_targ_dnn_0.05-0.001-40-0.png
+PGD-LINF-TARG,0.05,0.1,40,0,CNN,0.0537,output/pgd-linf-targ/pgd-linf-targ_cnn_0.05-0.1-40-y0.png
+PGD-LINF-TARG,0.05,0.075,40,0,CNN,0.0582,output/pgd-linf-targ/pgd-linf-targ_cnn_0.05-0.075-40-y0.png
+PGD-LINF-TARG,0.05,0.05,40,0,CNN,0.0637,output/pgd-linf-targ/pgd-linf-targ_cnn_0.05-0.05-40-y0.png
+PGD-LINF-TARG,0.05,0.026,40,0,CNN,0.0672,output/pgd-linf-targ/pgd-linf-targ_cnn_0.05-0.026-40-y0.png
+PGD-LINF-TARG,0.05,0.001,40,0,CNN,0.0463,output/pgd-linf-targ/pgd-linf-targ_cnn_0.05-0.001-40-y0.png
+PGD-LINF-TARG,0.05,0.1,40,0,DNN,0.1842,output/pgd-linf-targ/pgd-linf-targ_dnn_0.05-0.1-40-y0.png
+PGD-LINF-TARG,0.05,0.075,40,0,DNN,0.1851,output/pgd-linf-targ/pgd-linf-targ_dnn_0.05-0.075-40-y0.png
+PGD-LINF-TARG,0.05,0.05,40,0,DNN,0.1856,output/pgd-linf-targ/pgd-linf-targ_dnn_0.05-0.05-40-y0.png
+PGD-LINF-TARG,0.05,0.026,40,0,DNN,0.1864,output/pgd-linf-targ/pgd-linf-targ_dnn_0.05-0.026-40-y0.png
+PGD-LINF-TARG,0.05,0.001,40,0,DNN,0.1238,output/pgd-linf-targ/pgd-linf-targ_dnn_0.05-0.001-40-y0.png
