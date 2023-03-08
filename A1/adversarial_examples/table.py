@@ -3,12 +3,12 @@ import docx
 import pandas as pd
 from docx.shared import Inches
 
-methods = ["fgsm", "pgd", "pgd-linf", "pgd-linf-targ", "pgd-l2"]
-dfs = ['fgsm_results_df.csv', 'pgd_results_df.csv', 'pgd_linf_results_df.csv']
+dfs = ['fgsm_results_df.csv', 'pgd_results_df.csv', 'pgd_linf_results_df.csv', 'pgd_l2_results_df.csv']
 
 for i in range(len(dfs)):
     method = methods[i]
     df = pd.read_csv(f"results/{dfs[i]}").reset_index(drop=True)
+    method = df["Method"][0]
 
     # create a new Word document
     doc = docx.Document()
@@ -28,7 +28,7 @@ for i in range(len(dfs)):
                 cell._element.clear_content()
                 paragraph = cell.add_paragraph()
                 run = paragraph.add_run()
-                run.add_picture(f'{row[col]}.png', width=Inches(2), height=Inches(2))
+                run.add_picture(f'{row[col]}', width=Inches(3.5), height=Inches(2))
             else:
                 table.cell(i+1, j).text = str(row[col])
 

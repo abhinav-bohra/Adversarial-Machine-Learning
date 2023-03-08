@@ -2,6 +2,8 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
+dfs = ['fgsm_results_df.csv', 'pgd_results_df.csv', 'pgd_linf_results_df.csv', 'pgd_l2_results_df.csv']
+
 
 def plot_graph(groups, method, const_attr, other_attr):
     fig, ax = plt.subplots()
@@ -18,19 +20,18 @@ def plot_graph(groups, method, const_attr, other_attr):
     #plt.show()
     plt.savefig(f"graphs/{method}_{const_attr.lower()}.png")
 
-methods = ["fgsm", "pgd", "pgd-linf", "pgd-linf-targ", "pgd-l2"]
-dfs = ['fgsm_results_df.csv', 'pgd_results_df.csv', 'pgd_linf_results_df.csv']
 
 for i in range(len(dfs)):
-    method = methods[i]
     df = pd.read_csv(f"results/{dfs[i]}", index_col=None)
-    if method =="fgsm":
+    method = df["Method"][0]
+    if method =="FGSM":
       groups = df.groupby('Model')
-      plot_graph(groups, method, 'Epsilon')
+      plot_graph(groups, method, 'Epsilon', None)
     else:
       alpha_df = df[df['Alpha']==0.050].drop_duplicates().sort_values(by=['Epsilon'])
       alpha_groups = alpha_df.groupby('Model')
-      plot_graph(alpha_groups, method, 'Epsilon')
+      plot_graph(alpha_groups, method, 'Epsilon', "Alpha")
       eps_df = df[df['Epsilon']==0.050].drop_duplicates().sort_values(by=['Alpha'])
       eps_groups = eps_df.groupby('Model')
-      plot_graph(eps_groups, method, 'Alpha')
+      plot_graph(eps_groups, method, 'Alpha', 'Epsilon')
+    print(f'{method} DONE')
