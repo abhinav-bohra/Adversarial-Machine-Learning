@@ -1,12 +1,13 @@
 # Docx Table Creator
+import os
 import docx
 import pandas as pd
 from docx.shared import Inches
 
-dfs = ['fgsm_results_df.csv', 'pgd_results_df.csv', 'pgd_linf_results_df.csv', 'pgd_l2_results_df.csv']
+dfs = os.listdir("results")
 
 for i in range(len(dfs)):
-    method = methods[i]
+    df_name = dfs[i].replace("_results_df.csv", "")
     df = pd.read_csv(f"results/{dfs[i]}").reset_index(drop=True)
     method = df["Method"][0]
 
@@ -33,5 +34,5 @@ for i in range(len(dfs)):
                 table.cell(i+1, j).text = str(row[col])
 
     # save the document
-    doc.save(f'tables/{method}.docx')
-    print(f'tables/{method}.docx SAVED')
+    doc.save(f'tables/{df_name}.docx')
+    print(f'tables/{df_name}.docx SAVED')
