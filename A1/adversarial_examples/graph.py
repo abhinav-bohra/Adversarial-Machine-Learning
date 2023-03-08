@@ -3,14 +3,17 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def plot_graph(groups, method, const_attr):
+def plot_graph(groups, method, const_attr, other_attr):
     fig, ax = plt.subplots()
     for name, group in groups:
         ax.plot(group[const_attr], group['Miss-classification Rate'], marker='o', linestyle='-', label=name)
     # set x-axis and y-axis labels and title
     ax.set_xlabel(const_attr)
     ax.set_ylabel('Miss-classification Rate')
-    ax.set_title(f'{const_attr} vs.Miss-classification Rate')
+    if other_attr:
+      ax.set_title(f'{const_attr} vs. MSR at {other_attr}=0.05 and iters=40')
+    else:
+      ax.set_title(f'{const_attr} vs. MSR')
     ax.legend()
     #plt.show()
     plt.savefig(f"graphs/{method}_{const_attr.lower()}.png")
