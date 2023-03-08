@@ -1,4 +1,4 @@
-Epsilon,Model,Miss-classification Rate,Output Image
+Epsilon,Model,Miss-classification Rate,Output_Screenshot
 0.1,CNN,0.4423,output/fgsm/fgsm_cnn_0.1.png
 0.075,CNN,0.2667,output/fgsm/fgsm_cnn_0.075.png
 0.05,CNN,0.1284,output/fgsm/fgsm_cnn_0.05.png
