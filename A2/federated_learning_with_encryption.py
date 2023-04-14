@@ -70,7 +70,7 @@ Dependencies: numpy, sklearn
 
 import numpy as np
 from sklearn.datasets import load_diabetes
-
+import time
 import phe as paillier
 
 seed = 43
@@ -258,9 +258,13 @@ if __name__ == '__main__':
         'n_iter': 50,
         'eta': 1.5,
     }
+    start_time = time.time()
     # load data, train/test split and split training data between clients
     X, y, X_test, y_test = get_data(n_clients=config['n_clients'])
     # first each hospital learns a model on its respective dataset for comparison.
     local_learning(X, y, X_test, y_test, config)
     # and now the full glory of federated learning
     federated_learning(X, y, X_test, y_test, config)
+    end_time = time.time()
+    time_taken = (end_time - start_time)
+    print(f'\n\nTime Taken to compute federated learning process = {time_taken//60} mins {time_taken%60} secs')
