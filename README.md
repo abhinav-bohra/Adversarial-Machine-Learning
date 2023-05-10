@@ -21,4 +21,4 @@ We compared the misclassification rates for all the methods. The results were do
 ------------
 
 
-This project was completed as part of the programming assignment for the course **Dependable and Secure AI-ML (AI60006).****
+This project was completed as part of the programming assignment for the course **Dependable and Secure AI-ML (AI60006).**
