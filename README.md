@@ -13,8 +13,8 @@ We generate an adversarial example for a targeted attack by adding random noise 
 Next, we explored different methods for constructing adversarial examples:
 
 1. **Fast Gradient Sign Method (FGSM):** By varying the epsilon value between 0.1 and 0.001, we applied FGSM to generate five different adversarial examples. FGSM perturbs the original image based on the gradient information to maximize the loss and induce misclassification.
-2. **Projected Gradient Descent (PGD): **We utilized PGD to iteratively optimize the perturbation within a specified constraint. We applied PGD with infinity norm to generate adversarial examples and also explored targeted attacks using PGD.
-3. **PGD with L2 Norm: **By varying the epsilon and alpha values between 0.1 and 0.001, we applied PGD with L2 norm to generate five adversarial examples for each value. This method aimed to minimize the perturbation in the L2 space while inducing misclassification.
+2. **Projected Gradient Descent (PGD):** We utilized PGD to iteratively optimize the perturbation within a specified constraint. We applied PGD with infinity norm to generate adversarial examples and also explored targeted attacks using PGD.
+3. **PGD with L2 Norm:** By varying the epsilon and alpha values between 0.1 and 0.001, we applied PGD with L2 norm to generate five adversarial examples for each value. This method aimed to minimize the perturbation in the L2 space while inducing misclassification.
 
 We compared the misclassification rates for all the methods. The results were documented in a table with epsilon, alpha, and iterations as columns, and the optimization methods (FGSM, PGD, PGD with infinity norm, PGD with targeted attack, and PGD with L2 norm) as rows. This comparison helped us assess the effectiveness of each method in generating adversarial examples.
 
